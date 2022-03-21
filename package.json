@@ -1,14 +1,19 @@
 {
-  "dependencies": {
-    "react": "^17.0.2"
-  },
   "name": "technos",
-  "description": "This a app for health",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "js-tokens": "^4.0.0",
+    "object-assign": "^4.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "scheduler": "^0.20.2",
+    "loose-envify": "^1.4.0"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "run"
   },
   "repository": {
     "type": "git",
