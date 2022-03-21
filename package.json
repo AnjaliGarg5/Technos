@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "react": "^17.0.2"
-  }
+  },
+  "name": "technos",
+  "description": "This a app for health",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnjaliGarg5/Technos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnjaliGarg5/Technos/issues"
+  },
+  "homepage": "https://github.com/AnjaliGarg5/Technos#readme"
 }
