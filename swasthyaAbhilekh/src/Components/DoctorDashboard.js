@@ -2,23 +2,33 @@ import React from 'react';
 
 function DoctorDashboard() {
     return(
-        <div className='main'>
-            <div className='heading'>
-                <h3>Doctor's Dashboard:  </h3>
+        <div className='container'>
+            <header className='heading container-fluid m-4'>
+                <h3 className='center'>Doctor's Dashboard</h3>
+            </header>
+            <div className='row m-4'>
+                <div className='col m-4 border'>
+                    <h4>Specilization</h4>
+                    <ul>
+                        <li>Fever</li>
+                        <li>Cough</li>
+                        <li>xyz</li>
+                    </ul>
+                </div>
+                <div className='col m-4 border'>
+                    <h4>Number of Patients</h4>
+                    <p>10</p>
+                </div>
+                <div className='col m-4 border'>
+                    <h4>Rating</h4>
+                    <p>9/10</p>
+                </div>
             </div>
-            <div className='components'>
-                <div className='left'>
-
+            <div class="input-group m-4">
+                <input type="text" class="form-control" placeholder="Enter Health ID" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
                 </div>
-                <div className='center'>
-
-                </div>
-                <div className='right'>
-
-                </div>
-            </div>
-            <div className='id'>
-                <h4>Enter Health ID</h4>
             </div>
             
         </div>
