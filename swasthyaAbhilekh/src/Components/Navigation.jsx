@@ -5,16 +5,15 @@ function Navigation() {
   return (
     <div className="navigation">
       <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <div className="container">
+        <div className="container-fluid">
           <NavLink className="navbar-brand" to="/home">
             Swasthya Abhilekh
           </NavLink>
           <div>
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/DoctorDashboard">
                   Doctor
-                  <span className="sr-only"></span>
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -22,13 +21,16 @@ function Navigation() {
                   User
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/SignInPage">
+              <li className="nav-item ml-4">
+                <NavLink className="nav-link border" to="/SignInPage">
                   SignIn
                 </NavLink>
               </li>
             </ul>
           </div>
+          <NavLink className="navbar-brand" to="/Doctorprofile">
+            <img src="" class="img-thumbnail"/>
+          </NavLink>
         </div>
       </nav>
     </div>
